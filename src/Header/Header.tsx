@@ -1,10 +1,12 @@
 import React from 'react';
 import s from './Header.module.css';
+import Navigation from "./Navigation/Navigation";
 
 function Header() {
     return (
-        <div>
+        <div className = {s.header}>
             HEADER
+            <Navigation />
         </div>
     );
 }

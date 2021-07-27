@@ -1,0 +1,16 @@
+.main {
+    height: 100vh;
+    background-color: lightgreen;
+}
+
+.text {
+    width: 400px;
+    background-color: lightblue;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: lightcyan;
+}
+
