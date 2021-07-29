@@ -10,11 +10,11 @@ function Contacts() {
                 <h2 className={s.title}>MY CONTACTS</h2>
                 <form className={s.contacts}>
                     <div>Name</div>
-                    <input></input>
+                    <input className={s.input}></input>
                     <div>E-mail</div>
-                    <input></input>
+                    <input className={s.input}></input>
                     <div>Post</div>
-                    <textarea></textarea>
+                    <textarea className={s.input}></textarea>
                     <button className={s.button}>Send</button>
                 </form>
             </div>
