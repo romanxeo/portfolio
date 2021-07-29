@@ -5,7 +5,6 @@ import Navigation from "./Navigation/Navigation";
 function Header() {
     return (
         <div className = {s.header}>
-            HEADER
             <Navigation />
         </div>
     );

@@ -1,0 +1,30 @@
+.contactsBlock {
+    min-height: 20vh;
+    background-color: lightseagreen;
+}
+
+.contactsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title{
+    background-color: lightcyan;
+}
+
+.contacts {
+    width: 90%;
+    min-width: 300px;
+    max-width: 600px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.button {
+    margin: 0 auto;
+    width: 200px;
+    margin-bottom: 10px;
+}

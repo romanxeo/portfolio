@@ -1,0 +1,27 @@
+.project {
+    background-color: lightgreen;
+    max-width: 600px;
+    min-width: 290px;
+    width: 40%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon {
+    width: 90%;
+    height: 300px;
+    background-color: darkblue;
+}
+
+.title {
+    /*background-color: #8cbebf;*/
+}
+
+.description {
+    /*background-color: #c1e5b1;*/
+}
