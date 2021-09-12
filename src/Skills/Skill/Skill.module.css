@@ -1,6 +1,10 @@
 .skill {
-    background-color: lightgreen;
-    width: 360px;
+    /*dlya treh kolonok*/
+    background-color: #303030;
+    max-width: 510px;
+    min-width: 410px;
+    width: 30%;
+
     min-height: 20px;
 
     display: flex;
@@ -24,4 +28,24 @@
 
 .description {
     /*background-color: #c1e5b1;*/
+}
+
+@media screen and (min-width: 865px) and  (max-width: 1520px) {
+    .skill {
+        /*dlya dvuh kolonok*/
+        background-color: lightblue;
+        max-width: 450px;
+        min-width: 350px;
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .skill {
+        /*dlya odnoi kolonki*/
+        background-color: lightgreen;
+        max-width: 390px;
+        min-width: 290px;
+        width: 90%;
+    }
 }

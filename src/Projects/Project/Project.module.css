@@ -1,8 +1,9 @@
 .project {
-    background-color: lightgreen;
-    max-width: 600px;
-    min-width: 290px;
-    width: 40%;
+    /*dlya dvuh kolonok*/
+    background-color: #232323;
+    max-width: 1000px;
+    min-width: 450px;
+    width: 45%;
     margin-top: 5px;
     margin-bottom: 5px;
 
@@ -24,4 +25,14 @@
 
 .description {
     /*background-color: #c1e5b1;*/
+}
+
+@media screen and (max-width: 1113px) {
+    .project {
+        /*dlya odnoi kolonki*/
+        background-color: lightblue;
+        max-width: 550px;
+        min-width: 290px;
+        width: 90%;
+    }
 }
