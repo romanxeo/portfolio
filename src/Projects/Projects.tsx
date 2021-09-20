@@ -4,14 +4,17 @@ import sContainer from '../../src/common/styles/Container.module.css'
 import Project from "./Project/Project";
 import Title from "../common/components/Title";
 
+import img1 from './../assets/1.jpg'
+import img2 from './../assets/4.jpg'
+
 function Projects() {
     return (
         <div className = {s.projectsBlock}>
             <div className = {`${sContainer.container} ${s.projectsContainer}`}>
-                <Title title={'MY PROJECT'}/>
+                <Title title={'My Projects'}/>
                 <div className={s.projects}>
-                    <Project title={'Social network'} description={'ewfew nlfe erjwel fdlsnfljdf'}/>
-                    <Project title={'Todolist'} description={'ewfew nlfe erjwel fdlsnfljdf'}/>
+                    <Project title={'Social network'} description={'ewfew nlfe erjwel fdlsnfljdf'} icon={img1}/>
+                    <Project title={'Todolist'} description={'ewfew nlfe erjwel fdlsnfljdf'} icon={img2}/>
                 </div>
             </div>
         </div>

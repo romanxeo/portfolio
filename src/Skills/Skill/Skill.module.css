@@ -30,7 +30,7 @@
     /*background-color: #c1e5b1;*/
 }
 
-@media screen and (min-width: 865px) and  (max-width: 1520px) {
+@media screen and (min-width: 875px) and  (max-width: 1540px) {
     .skill {
         /*dlya dvuh kolonok*/
         background-color: lightblue;
@@ -40,7 +40,7 @@
     }
 }
 
-@media screen and (max-width: 865px) {
+@media screen and (max-width: 875px) {
     .skill {
         /*dlya odnoi kolonki*/
         background-color: lightgreen;
