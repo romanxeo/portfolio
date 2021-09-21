@@ -15,6 +15,7 @@ function Projects() {
                 <div className={s.projects}>
                     <Project title={'Social network'} description={'ewfew nlfe erjwel fdlsnfljdf'} icon={img1}/>
                     <Project title={'Todolist'} description={'ewfew nlfe erjwel fdlsnfljdf'} icon={img2}/>
+
                 </div>
             </div>
         </div>

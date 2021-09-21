@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'myFont';
+    src: url("https://www.nerdfonts.com/fonts/Symbols-2048-em Nerd Font Complete.woff2");
+}
+
 .skill {
     /*dlya treh kolonok*/
     background-color: #303030;
@@ -23,7 +28,7 @@
 }
 
 .title {
-    /*background-color: #8cbebf;*/
+    font-family: "myFont", serif;
 }
 
 .description {
