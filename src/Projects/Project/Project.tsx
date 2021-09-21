@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Project.module.css';
+import s from './Project.module.scss';
 
 type PropsType = {
   title: string
@@ -14,17 +14,15 @@ function Project(props: PropsType) {
         <div className={s.blocImg}>
           <img
             src={props.icon}
-            alt="" />
+            alt=""/>
           <div className={s.blocText}>
-              <div className={s.text}>
-                <h3>{props.title}</h3>
-                <span>{props.description}</span>
-              </div>
+            <div className={s.text}>
+              <h3>{props.title}</h3>
+              <span>{props.description}</span>
+            </div>
           </div>
         </div>
-        <div>
-          <button className={s.btn}>Link..</button>
-        </div>
+        <button className={s.btn}>Link..</button>
       </div>
     </div>
   )

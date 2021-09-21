@@ -1,17 +1,16 @@
 import React from 'react';
-import s from './Skill.module.css';
+import s from './Skill.module.scss';
 
 type PropsType = {
     title: string
-    description: string
+    icon: string
 }
 
 function Skill(props: PropsType) {
     return (
         <div className = {s.skill}>
-            <div className={s.icon}>ICO</div>
-            <h3 className={s.title}>{props.title} + </h3>
-            <span className={s.description}>{props.description}</span>
+            <img className={s.icon} src={props.icon}/>
+            <div className={s.title}>{props.title}</div>
         </div>
     );
 }

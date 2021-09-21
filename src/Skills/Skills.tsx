@@ -1,8 +1,14 @@
 import React from 'react';
-import s from './Skills.module.css';
+import s from './Skills.module.scss';
 import sContainer from "../common/styles/Container.module.css";
 import Skill from "./Skill/Skill";
 import Title from '../common/components/Title';
+import icoHtml from '../assets/icon/html.png'
+import icoCss from '../assets/icon/css.png'
+import icoJS from '../assets/icon/js.png'
+import icoTS from '../assets/icon/ts.png'
+import icoReact from '../assets/icon/react.png'
+import icoRedux from '../assets/icon/redux.png'
 
 function Skills() {
     return (
@@ -10,13 +16,12 @@ function Skills() {
             <div className = {`${sContainer.container} ${s.skillsContainer}`}>
                 <Title title={'My Skills'}/>
                 <div className={s.skills}>
-                    <Skill title={'CSS'} description={'ewfew nlfe erjwel fdlsnfljdf'}/>
-                    <Skill title={'JS'} description={'ewfew nlfe erjwel fdlsnfljdf'}/>
-                    <Skill title={'REACT'} description={'ewfew wqwqe wqe qwrewxzxf d sd dsgfgfd gfddfg fdg dsgfgfd gfddfg fdgdf  dsgfgfd gfddfg fdgdf  dsgfgfd gfddfg fdgdf  dsgfgfd gfddfg fdgdf  dsgfgfd gfddfg fdgdf  dsgfgfd gfddfg fdgdf  dsgfgfd gfddfg fdgdf  dsgfgfd gfddfg fdgdf  dsgfgfd gfddfg fdgdf  dsgfgfd gfddfg fdgdf df fd fgdfg fdgdfgdf dfg dfgdfgfdgre rer rwer we ew e qr eqtwetwer werwe nlfe erjwel fdlsnfljdf'}/>
-                    <Skill title={'CSS'} description={'ewfew nlfe erjwel fdlsnfljdf'}/>
-                    <Skill title={'JS'} description={'ewfew nlfe erjwel fdlsnfljdf'}/>
-                    <Skill title={'REACT'} description={'ewfew wqwqe wqe qwrewre rer rwer we ew e qr eqtwetwer werwe nlfe erjwel fdlsnfljdf'}/>
-
+                    <Skill title={'HTML'} icon={icoHtml}/>
+                    <Skill title={'CSS'} icon={icoCss}/>
+                    <Skill title={'JavaScript'} icon={icoJS}/>
+                    <Skill title={'TypeScript'} icon={icoTS}/>
+                    <Skill title={'React'} icon={icoReact}/>
+                    <Skill title={'Redux'} icon={icoRedux}/>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Projects.module.css';
+import s from './Projects.module.scss';
 import sContainer from '../../src/common/styles/Container.module.css'
 import Project from "./Project/Project";
 import Title from "../common/components/Title";
@@ -14,8 +14,7 @@ function Projects() {
                 <Title title={'My Projects'}/>
                 <div className={s.projects}>
                     <Project title={'Social network'} description={'ewfew nlfe erjwel fdlsnfljdf'} icon={img1}/>
-                    <Project title={'Todolist'} description={'ewfew nlfe erjwel fdlsnfljdf'} icon={img2}/>
-
+                    <Project title={'Todolist'} description={'HAHAHA ewfew nlfe erjwel fdlsnfljdf'} icon={img2}/>
                 </div>
             </div>
         </div>
