@@ -9,6 +9,7 @@
     min-height: 90vh;
 
     .text {
+      margin-top: 20px;
       width: 94%;
       max-width: 600px;
       min-width: 290px;
@@ -16,27 +17,25 @@
 
       & span {
         @include text($buttonFontFamily, 400, 22px, $textColor);
-        line-height: 12px;
-        height: 12px;
+        line-height: 24px;
       }
 
       & h1 {
+        margin-top: 5px;
+        margin-bottom: -15px;
         @include text($buttonFontFamily, 400, 44px, $textColor);
-        line-height: 12px;
-        height: 24px;
+        line-height: 40px;
       }
 
       & b {
         @include text($buttonFontFamily, 600, 44px, $hoverTextColor);
-        line-height: 12px;
-        height: 12px;
+        line-height: 40px;
       }
 
       & p {
         text-align: right;
         @include text($buttonFontFamily, 400, 22px, $textColor);
-        line-height: 12px;
-        height: 24px;
+        line-height: 24px;
       }
     }
 
