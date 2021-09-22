@@ -1,3 +1,6 @@
+@import "./../../common/styles/sass/variables";
+@import "./../../common/styles/sass/mixins";
+
 /*@font-face {
     font-family: 'myFont';
     src: url("https://github.com/romanxeo/portfolio/blob/master/src/assets/font/Symbols2048.woff2");
@@ -5,7 +8,7 @@
 
 .skill {
   /*dlya treh kolonok*/
-  background-color: #303030;
+  background-color: $backgroundColorSecondary;
   max-width: 290px;
   min-width: 160px;
   width: 16%;
@@ -28,10 +31,7 @@
   }
 
   .title {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    color: #fff;
+    @include text($buttonFontFamily, 400, 20px, $textColor);
     margin-bottom: 15px;
 
     transition: .35s;
@@ -53,7 +53,7 @@
   }
 
   &:hover .title {
-    color: #cda274;
+    color: $hoverTextColor;
   }
 }
 
