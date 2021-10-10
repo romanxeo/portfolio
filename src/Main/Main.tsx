@@ -2,7 +2,7 @@ import React from 'react';
 import s from './Main.module.scss';
 import sContainer from '../../src/common/styles/Container.module.css'
 import photo from './../assets/my.png'
-
+//test
 
 function Main() {
   return (
