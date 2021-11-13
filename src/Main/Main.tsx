@@ -10,7 +10,7 @@ function Main() {
       <div className={`${sContainer.container} ${s.mainContainer}`}>
         <div className={s.text}>
           <span>Hi all</span>
-          <h1>I'm <b>Roman GREBINCHAK1</b></h1>
+          <h1>I'm <b>Roman GREBINCHAK</b></h1>
           <p>A frontend-developer</p>
         </div>
         <div className={s.photoBlock}>
