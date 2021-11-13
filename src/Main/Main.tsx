@@ -14,7 +14,7 @@ function Main() {
           <p>A Front-end developer1</p>
         </div>
         <div className={s.photoBlock}>
-          <img className={s.photo} src={photo} alt={'her'}/>
+          <img className={s.photo} src={photo} alt={''}/>
         </div>
       </div>
     </div>
