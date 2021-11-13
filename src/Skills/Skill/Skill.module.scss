@@ -1,0 +1,63 @@
+@import "./../../common/styles/sass/variables";
+@import "./../../common/styles/sass/mixins";
+
+/*@font-face {
+    font-family: 'myFont';
+    src: url("https://github.com/romanxeo/portfolio/blob/master/src/assets/font/Symbols2048.woff2");
+}*/
+
+.skill {
+  /*dlya treh kolonok*/
+  background-color: $backgroundColorSecondary;
+  max-width: 290px;
+  min-width: 160px;
+  width: 16%;
+
+  min-height: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  .title {
+    @include text($buttonFontFamily, 400, 20px, $textColor);
+    margin-bottom: 15px;
+
+    transition: .35s;
+  }
+
+  @media screen and (min-width: 750px) and (max-width: 1300px) {
+    /*dlya treh kolonok*/
+    width: 32%;
+  }
+
+  @media screen and (min-width: 450px) and (max-width: 750px) {
+    /*dlya dvuh kolonki*/
+    width: 49%;
+  }
+
+  @media screen and (max-width: 450px) {
+    /*dlya odnoi kolonki*/
+    width: 94%;
+  }
+
+  &:hover .title {
+    color: $hoverTextColor;
+  }
+}
+
+
+
+
+

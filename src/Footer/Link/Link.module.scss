@@ -1,0 +1,36 @@
+@import "./../../common/styles/sass/variables";
+@import "./../../common/styles/sass/mixins";
+
+.link {
+    //background-color: lightgreen;
+    width: 90px;
+    min-height: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    .icon {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 5px;
+    }
+
+    .title {
+        @include text($buttonFontFamily, 400, 16px, $textColor);
+        margin-bottom: 15px;
+
+        transition: .35s;
+    }
+
+    &:hover .title {
+        color: $hoverTextColor;
+    }
+}
+
+
+
