@@ -66,12 +66,14 @@
 
     }
 
-    .btn {
+    .div {
       @include text($buttonFontFamily, 400, 16px, $textColor);
 
       margin-top: 10px;
       margin-bottom: 10px;
-      width: 100%;
+      width: 90.5%;
+
+      display: inline-block;
 
       background: $backgroundColorPrimary;
       padding: 4px 20px 4px 20px;

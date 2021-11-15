@@ -7,20 +7,24 @@ import iconInst from './../assets/link/inst.png'
 import iconTG from './../assets/link/tg.png'
 import iconGit from './../assets/link/git.png'
 import iconLIN from './../assets/link/lin.png'
+import {Fade} from 'react-awesome-reveal';
 
 function Footer() {
     return (
-        <div className = {s.footerBlock}>
-            <div className = {`${sContainer.container} ${s.footerContainer}`}>
+        <div className={s.footerBlock}>
+            <div className={`${sContainer.container} ${s.footerContainer}`}>
 
                 <div className={s.footer}>
-                    <Link title={'instagram'} icon={iconInst}/>
-                    <Link title={'telegram'} icon={iconTG}/>
-                    <Link title={'github'} icon={iconGit}/>
-                    <Link title={'linkedin'} icon={iconLIN}/>
+                    <Fade cascade={true} duration={200}>
+                        <Link title={'instagram'} icon={iconInst}/>
+                        <Link title={'telegram'} icon={iconTG}/>
+                        <Link title={'github'} icon={iconGit}/>
+                        <Link title={'linkedin'} icon={iconLIN}/>
+                    </Fade>
                 </div>
-
-                <div className={s.text}>(c) 2021</div>
+                <Fade>
+                    <div className={s.text}>(c) 2021</div>
+                </Fade>
             </div>
         </div>
     );
