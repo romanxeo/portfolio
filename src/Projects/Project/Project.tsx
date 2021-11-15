@@ -5,6 +5,7 @@ type PropsType = {
   title: string
   description: string
   icon: string
+  link: string
 }
 
 function Project(props: PropsType) {
@@ -22,7 +23,7 @@ function Project(props: PropsType) {
             </div>
           </div>
         </div>
-        <button className={s.btn}>Link..</button>
+        <button className={s.btn}>Link.. {props.link}</button>
       </div>
     </div>
   )

@@ -3,6 +3,8 @@
 .skillsBlock {
   min-height: 10vh;
   background-color: $backgroundColorPrimary;
+  position: relative;
+  z-index: 10;
 
   .skillsContainer {
     flex-direction: column;

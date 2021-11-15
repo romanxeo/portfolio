@@ -3,7 +3,17 @@
 
 .main {
   min-height: 90vh;
+  position: relative;
   background-color: $backgroundColorSecondary;
+
+  .particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+  }
 
   .mainContainer {
     min-height: 90vh;
@@ -13,6 +23,7 @@
       width: 94%;
       max-width: 600px;
       min-width: 290px;
+      z-index: 10;
       //background-color: darkblue;
 
       & span {
@@ -46,6 +57,7 @@
       width: 94%;
       max-width: 400px;
       min-width: 290px;
+      z-index: 10;
 
       .photo {
         width: 100%;
