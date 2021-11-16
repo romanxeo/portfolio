@@ -16,10 +16,10 @@ function Footer() {
 
                 <div className={s.footer}>
                     <Fade cascade={true} duration={200}>
-                        <Link title={'instagram'} icon={iconInst}/>
-                        <Link title={'telegram'} icon={iconTG}/>
-                        <Link title={'github'} icon={iconGit}/>
-                        <Link title={'linkedin'} icon={iconLIN}/>
+                        <Link title={'instagram'} icon={iconInst} link={'https://instagram.com/romancyber'}/>
+                        <Link title={'telegram'} icon={iconTG} link={'https://t.me/romanxeo'}/>
+                        <Link title={'github'} icon={iconGit} link={'https://github.com/romanxeo'}/>
+                        <Link title={'linkedin'} icon={iconLIN} link={'https://linkedin.com/in/romanxeo'}/>
                     </Fade>
                 </div>
                 <Fade>

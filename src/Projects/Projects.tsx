@@ -17,13 +17,18 @@ function Projects() {
                     <Title title={'My Projects'}/>
                 </Fade>
                 <div className={s.projects}>
-                    <Project title={'Social network'} description={'ewfew nlfe erjwel fdlsnfljdf'} icon={img1}
-                             link={'https://google1.com'}/>
-                    <Project title={'Todolist'} description={'HAHAHA ewfew nlfe erjwel fdlsnfljdf'} icon={img2}
-                             link={'https://google1.com'}/>
+                    <Project title={'Social network'}
+                             description={'ewfew nlfe erjwel fdlsnfljdf'}
+                             icon={img1}
+                             link={'https://romanxeo.github.io/socnetwork'}/>
+                    <Project title={'Todolist'}
+                             description={'HAHAHA ewfew nlfe erjwel fdlsnfljdf'}
+                             icon={img2}
+                             link={'https://romanxeo.github.io/todolist'}/>
                     <Project title={'Cards learning'}
-                             description={'HAHAHA ewfew nl11fe erjwel fdlsnfljdf'}
-                             icon={img3} link={'https://google1.com'}/>
+                             description={'Application for self-study by cards. The ability to create your own collection of cards. Learning with other user in network.'}
+                             icon={img3}
+                             link={'https://romanxeo.github.io/cardsapp'}/>
                 </div>
             </div>
         </div>
