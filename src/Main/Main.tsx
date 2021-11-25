@@ -47,7 +47,7 @@ function Main() {
                 <div className={s.text}>
                     <Fade cascade={true} duration={300}>
                         <span>Hi all</span>
-                        <h1>I'm <b>Roman GREBINCHAK</b></h1>
+                        <h1>I'm <b>Roman GREBINCHAK1</b></h1>
                         <p>Frontend developer</p>
                     </Fade>
                 </div>
